@@ -14,6 +14,7 @@ public class Simulation {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+     Simulator sim = new Simulator(100,200);
+     sim.starteLangeSimulation();
     }
 }
